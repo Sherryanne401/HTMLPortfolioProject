@@ -5,21 +5,60 @@
 
 .header {
 	background-color: #f0ede5;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 46px;
 }
 
 .tagline, .contact {
 	font-family: 'Amaranth', sans-serif;
-	font-color: white;
+	color: white;
 }
 
 .tagline {
 	background-color: #262626;
+	height: 375px;
+	font-size: 22.5px;
+}
+
+.tagline p{
+	text-indent: 50px;
+	line-height: 1.8em;
 }
 
 .skills {
 	background-color: #ffdd99;
+	font-size: 22.5px;
+	height: 300px;
+}
+
+.skills ul {
+	list-style-type: none;
+	line-height: 2em;
+	column-count: 3;
+	column-rule: 2px solid black;
 }
 
 .contact {
-	background-color: #4d004d;
+	background-color: #ff4d4d;
+	text-decoration: none;
+	font-size: 22.5px;
+	height: 260px;
+	border: none;
+	margin: 0 20px;
+	padding:50px 20px 0 20px;
+}
+
+.header, .tagline, .skills {
+	border: none;
+	margin: 0 20px;
+	padding: 20px;
+}
+
+.header {
+	height: 450px;
+}
+
+a:link {
+	text-decoration: none;
 }
