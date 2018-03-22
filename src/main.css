@@ -1,0 +1,25 @@
+.header, .skills{
+	font-family: 'Vidaloka', serif;
+	font-weight: bold;
+}
+
+.header {
+	background-color: #f0ede5;
+}
+
+.tagline, .contact {
+	font-family: 'Amaranth', sans-serif;
+	font-color: white;
+}
+
+.tagline {
+	background-color: #262626;
+}
+
+.skills {
+	background-color: #ffdd99;
+}
+
+.contact {
+	background-color: #4d004d;
+}
